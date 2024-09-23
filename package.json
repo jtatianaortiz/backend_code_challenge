@@ -1,0 +1,23 @@
+{
+  "name": "backend_code_challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "jtatianaortiz",
+  "license": "ISC",
+  "description": "Backend code challenge - PokeAPI Connector",
+  "devDependencies": {
+    "@types/express": "4.17.21",
+    "ts-node-dev": "2.0.0",
+    "typescript": "5.6.2"
+  },
+  "dependencies": {
+    "axios": "1.7.7",
+    "dotenv": "16.4.5",
+    "express": "4.21.0"
+  }
+}
