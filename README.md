@@ -12,7 +12,7 @@
 - [Dependencia](#dependencia)
 - [Estructura del proyecto](#estructura-del-proyecto)
 - [Documentación de la API](#documentación-de-la-api)
-  - [EndPoints](#endPoints)
+  - [EndPoints](#endpoints)
 - [Instalación](#instalación)
   - [Clonar el repositorio](#clonar-el-repositorio)
   - [Environment](#environment)
@@ -32,13 +32,10 @@ Esta prueba técnica fue realizada con Node.js, TypeScript y Express para constr
 
 ## Tecnologías Utilizadas
 
-**Node.js:**
-
-**Express:**
-
-**Axios:**
-
-**TypeScript:** Es un lenguaje de programación de código abierto que se basa en JavaScript y agrega tipado estático. Esto significa que permite definir tipos para las variables y funciones, lo que ayuda a encontrar y prevenir errores antes de ejecutar el código.
+- Node.js
+- Express
+- Axios
+- TypeScript
 
 ## Dependencia
 
@@ -239,26 +236,20 @@ Se requiere la configuración de las variables de entorno del proyecto:
 - Ejecuta la aplicación en un entorne de producción.
 - Actualmente esta compilando y ejecutando el proyecto en un solo comando.
 
-````
-
+```
 $ npm run start
-
 ```
 
 - Ejecuta la aplicación en un entorno de desarrollo.
 
 ```
-
 $ npm run dev
-
 ```
 
 - Permite la compilación y preparación de la aplicación. Compila el código TypeScript a JavaScript en la carpeta dist.
 
 ```
-
 $ npm run build
-
 ```
 
 ## Acceso a la API en Render
@@ -274,13 +265,9 @@ Se puede utilizar para hacer solicitudes a la API desde herramientas como: Postm
 #### Usando `curl`
 
 ```
-
 curl https://mi-aplicacion-en-render.onrender.com/api/pokemon/1
-
 ```
 
 ## Desarrollador ✒️
 
 - **Tatiana Ortiz** - _[Software Developer 💻](https://www.linkedin.com/in/jtatianaortiz/)_
-```
-````
