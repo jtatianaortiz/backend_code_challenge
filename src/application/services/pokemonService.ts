@@ -4,7 +4,9 @@ import { Pokemon, PokemonType, Translation } from '../../domain/pokemon'
 
 export const fetchPokemon = async () => {
   const response = await axios.get(`${config.pokeApiUrl}/pokemon?limit=100`)
-  return response.data.results
+  return {
+    results: response.data.results
+  };
 }
 
 export const fetchPokemonById = async (id: number) => {
@@ -34,7 +36,7 @@ const getTranslations = async (typeUrl: string) => {
     })
   } catch (error) {
     console.error(`Error getting translations for ${typeUrl}:`, error)
-    return []
+   throw error
   }
 }
 
