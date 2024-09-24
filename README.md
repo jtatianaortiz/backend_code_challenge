@@ -265,7 +265,7 @@ Se puede utilizar para hacer solicitudes a la API desde herramientas como: Postm
 #### Usando `curl`
 
 ```
-curl https://mi-aplicacion-en-render.onrender.com/api/pokemon/1
+curl https://backend-code-challenge-x6tm.onrender.com/api/pokemon/1
 ```
 
 ## Desarrollador ✒️
